@@ -8,9 +8,8 @@ module.exports = {
     },
 
     discord: {
-        token: 'ODUzOTQ3MDIzNzkwNTcxNTIw.YMcyJA.vX30NsyHfcWv2BlUXmz3HdwMZHM',
         prefix: '.',
-        activity: 'ACTIVITY',
+        activity: 'VIGGA 2021 ',
       },
 
     filters: ['8D', 'gate', 'haas', 'phaser', 'treble', 'tremolo', 'vibrato', 'reverse', 'karaoke', 'flanger', 'mcompand', 'pulsator', 'subboost', 'bassboost', 'vaporwave', 'nightcore', 'normalizer', 'surrounding'],
