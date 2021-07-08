@@ -54,4 +54,4 @@ client.on('messageReactionRemove', async(reaction, user) => {
         }
     }
 })
-client.login(client.config.discord.token)
+client.login(process.env.token);
