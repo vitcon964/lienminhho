@@ -35,7 +35,7 @@ client.on('messageReactionAdd', async(reaction, user) => {
     if(reaction.partial) await reaction.fetch();
     if(user.bot) return;
     if(!reaction.message.guild) return;
-    if(reaction.message.id === '862601169841815553'){
+    if(reaction.message.id === '862908561549426728'){
         if(reaction.emoji.name === '⚔️') {
             await reaction.message.guild.members.cache.get(user.id).roles.add('748181627733278830')
             user.send('Chào mừng bạn tới với discord của VIGGA, mong bạn hãy đọc luật discord đầy đủ!')
@@ -47,7 +47,7 @@ client.on('messageReactionRemove', async(reaction, user) => {
     if(reaction.partial) await reaction.fetch();
     if(user.bot) return;
     if(!reaction.message.guild) return;
-    if(reaction.message.id === '862601169841815553'){
+    if(reaction.message.id === '862908561549426728'){
         if(reaction.emoji.name === '⚔️') {
             await reaction.message.guild.members.cache.get(user.id).roles.remove('748181627733278830')
             user.send('Bạn đã từ bỏ quyền truy cập vào ở discord VIGGA.')
